@@ -1,0 +1,112 @@
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #e9d8fd, #ffffff, #d6bcfa);
+  padding: 20px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9d8fd;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6b21a8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  cursor: pointer;
+  color: #666;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.login-button.active {
+  background-color: #6b21a8;
+  color: white;
+}
+
+.login-button.disabled {
+  background-color: #ccc;
+  color: white;
+  cursor: not-allowed;
+}
+
+.login-note {
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+  margin: 20px 0 10px;
+}
+
+.dummy-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dummy-button {
+  padding: 8px 12px;
+  font-size: 12px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dummy-button:hover {
+  background-color: #e0e0e0;
+}
+
+.register-link {
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+}
+
+.register-link a {
+  color: #6b21a8;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

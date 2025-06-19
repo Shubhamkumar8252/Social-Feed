@@ -1,0 +1,46 @@
+.public-feed {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.feed-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.post-author {
+  font-weight: bold;
+  color: #5b21b6;
+  margin-bottom: 6px;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.loading,
+.end {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
